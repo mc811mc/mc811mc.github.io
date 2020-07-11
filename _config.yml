@@ -1,0 +1,24 @@
+# Site wide configuration
+
+title: Minho Cho
+locale: en_US
+logo: # filename of a logo image that has been placed into your images directory
+
+# Enter the following platform usernames if you would like for them to appear on your site.
+owner:
+  name: Minho Cho
+  #avatar: bio-photo.jpg
+  bio: "This is a sample Jekyll academic website."
+  email: mc811mc@gmail.com
+  # Do not include the @ symbol in your Twitter username
+  twitter: laderast
+  linkedin: #mc811mc
+  github: mc811mc
+  orcid: # ID Number (ex. 0000-0000-0000-0000)
+  researchgate: #username
+  mendeley: #username
+  google:
+    plus: #username
+    analytics:
+    verify:
+    scholar: #id
