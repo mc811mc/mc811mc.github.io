@@ -1,0 +1,134 @@
+body {
+
+	color: black; 
+	font-family: Verdana, Arial, Geneva, Arial Black; 
+	font-weight: bold;
+	background-color: #F6EBE8;
+	font-size: 25px;
+	
+}
+		
+h1 {
+	
+	text-decoration: underline;
+	font-size: 150%;
+	text-align: center;
+
+}
+
+h2 {
+	
+	text-decoration: underline;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+h3 {
+	
+	text-decoration: underline;
+	
+}
+		
+.paragraph {
+	
+	color:black; 
+	font-size: 15px;
+	font-style: italic;
+	line-height: 1.5em;
+	background-color: white;
+	padding: 20px;
+	border-color: black;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 10px;
+
+}
+	
+#paragraphhomepage {
+	
+	color:black; 
+	font-size: 15px;
+	font-style: italic;
+	line-height: 1.5em;
+	background-color: white;
+	padding: 20px;
+	border-color: gray;
+	border-width: 2px;
+	border-style: solid;
+	margin-top: 50px;
+	margin-left: 400px;
+}
+
+#divmain {
+	
+	color:black; 
+	
+}
+
+#divabsolute {
+	
+	background-color: black;
+	color: white;
+	
+	position: absolute;
+	
+	top: 500px;
+	left: 150px;
+	width: 250px;
+	height: 250px;
+	
+}
+
+.highlight {
+
+	background-color: #ffff00
+
+}
+
+.tab {
+
+	background-color: #ffff00
+
+}
+
+a:link {
+	
+	color: blue;
+
+}
+
+a:visited {
+	
+	color: #8C8C9D;
+	
+}
+
+a:hover {
+	
+	color: #F15A51;
+	
+}
+	
+.profile {
+	
+	display: block;
+	width: 40%;
+	height: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 3px;
+	background-color: silver;
+	border-color: black;
+	border-width: 2px;
+	border-style: ridge;
+	
+}
+
+#copyright {
+	
+	color:black; 
+	font-size: 15px;
+	font-style: italic;
+	text-align: center;
+	
+}	
