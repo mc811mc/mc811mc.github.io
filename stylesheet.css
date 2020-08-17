@@ -1,3 +1,30 @@
+#section_nav {
+	
+	background-color: black;
+	height: 35px;
+	font-size: 25px;
+	font-weight: bold;
+	font: Tahoma;
+	
+}
+
+#section_nav ul {
+	
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	text-align: center;
+	
+}
+
+#section_nav li {
+
+	display: inline;
+	padding: 15px;
+	vertical-align: middle;
+	
+}
+
 body {
 
 	color: black; 
@@ -19,14 +46,8 @@ h1 {
 h2 {
 	
 	text-decoration: underline;
-	font-size: 1.2em;
+	font-size: 120%;
 	text-align: center;
-}
-
-h3 {
-	
-	text-decoration: underline;
-	
 }
 		
 .paragraph {
@@ -43,21 +64,6 @@ h3 {
 	border-radius: 10px;
 
 }
-	
-#paragraphhomepage {
-	
-	color:black; 
-	font-size: 15px;
-	font-style: italic;
-	line-height: 1.5em;
-	background-color: white;
-	padding: 20px;
-	border-color: gray;
-	border-width: 2px;
-	border-style: solid;
-	margin-top: 50px;
-	margin-left: 400px;
-}
 
 #divmain {
 	
@@ -69,9 +75,7 @@ h3 {
 	
 	background-color: black;
 	color: white;
-	
 	position: absolute;
-	
 	top: 500px;
 	left: 150px;
 	width: 250px;
@@ -79,16 +83,36 @@ h3 {
 	
 }
 
-.highlight {
-
-	background-color: #ffff00
-
+ul {
+	
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	
 }
 
-.tab {
+ul li a {
+	
+	text-decoration: none;
+	font-family: Verdana, Arial, Geneva, Arial Black; 
+	background-color: #5C755E;
+	color: white;
+	display: block;
+	width: 220px;
+	margin: 5px;
+	padding: 3px;
+	border: 1px solid black;
+	border-radius: 2px;
+	text-align: center;
+	height: 25px;
+	line-height: 25px;
+}
 
-	background-color: #ffff00
-
+ul li a: hover {
+	
+	background-color: #D3D3D3;
+	color: black;
+	
 }
 
 a:link {
@@ -99,7 +123,7 @@ a:link {
 
 a:visited {
 	
-	color: #8C8C9D;
+	color: white;
 	
 }
 
@@ -108,8 +132,14 @@ a:hover {
 	color: #F15A51;
 	
 }
-	
-.profile {
+
+.highlight {
+
+	background-color: #ffff00
+
+}
+
+#profile {
 	
 	display: block;
 	width: 40%;
@@ -131,4 +161,4 @@ a:hover {
 	font-style: italic;
 	text-align: center;
 	
-}	
+}		
