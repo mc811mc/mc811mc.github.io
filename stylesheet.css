@@ -139,6 +139,63 @@ a:hover {
 
 }
 
+/* Gallery Settings */
+
+.gallery {
+
+	border: 1px solid #cccccc;
+
+}
+
+.gallery:hover {
+
+	border: 1px solid #777777;
+
+}
+
+.gallery img {
+
+	width: 100%;
+	height: auto;
+
+}
+
+.caption {
+
+	padding: 15px;
+	text-align: center;
+
+}
+
+* {
+
+	box-sizing: border-box;
+
+}
+
+.responsive {
+
+	padding: 0 6px;
+	float: left;
+	width: 33.3333%;
+
+}
+
+@media only screen and (max-width: 700px) {
+
+	.responsive {
+		width: 49.9999%;	
+		margin: 6px 0;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+
+	.responsive {
+			width: 100%;
+	}
+}
+
 #profile {
 	
 	display: block;
