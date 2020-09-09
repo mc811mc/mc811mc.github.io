@@ -52,6 +52,7 @@ h2 {
 		
 .paragraph {
 	
+	text-align: center;
 	color:black; 
 	font-size: 15px;
 	font-style: italic;
@@ -115,15 +116,35 @@ ul li a:hover {
 	
 }
 
+#photographyskills {
+
+	/*type, position, image*/
+	list-style: square inside none;
+
+}
+
+table {
+
+	border-collapse: seperate;
+
+}
+
+table.auto {
+
+	table-layout: auto;
+
+}
+
 a:link {
 	
 	color: blue;
+	text-decoration: none;
 
 }
 
 a:visited {
 	
-	color: white;
+	color: purple;
 	
 }
 
