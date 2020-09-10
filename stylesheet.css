@@ -1,30 +1,3 @@
-#section_nav {
-	
-	background-color: black;
-	height: 35px;
-	font-size: 25px;
-	font-weight: bold;
-	font: Tahoma;
-	
-}
-
-#section_nav ul {
-	
-	padding: 0;
-	margin: 0;
-	list-style-type: none;
-	text-align: center;
-	
-}
-
-#section_nav li {
-
-	display: inline;
-	padding: 15px;
-	vertical-align: middle;
-	
-}
-
 body {
 
 	color: black; 
@@ -49,7 +22,7 @@ h2 {
 	font-size: 120%;
 	text-align: center;
 }
-		
+
 .paragraph {
 	
 	text-align: center;
@@ -81,38 +54,6 @@ h2 {
 	left: 150px;
 	width: 250px;
 	height: 250px;
-	
-}
-
-ul {
-	
-	list-style: none;
-	padding: 0;
-	margin: 0;
-	
-}
-
-ul li a {
-	
-	text-decoration: none;
-	font-family: Verdana, Arial, Geneva, Arial Black; 
-	background-color: #5C755E;
-	color: white;
-	display: block;
-	width: 220px;
-	margin: 5px;
-	padding: 3px;
-	border: 1px solid black;
-	border-radius: 2px;
-	text-align: center;
-	height: 25px;
-	line-height: 25px;
-}
-
-ul li a:hover {
-	
-	background-color: #D3D3D3;
-	color: black;
 	
 }
 
@@ -160,63 +101,6 @@ a:hover {
 
 }
 
-/* Gallery Settings */
-
-.gallery {
-
-	border: 1px solid #cccccc;
-
-}
-
-.gallery:hover {
-
-	border: 1px solid #777777;
-
-}
-
-.gallery img {
-
-	width: 100%;
-	height: auto;
-
-}
-
-.caption {
-
-	padding: 15px;
-	text-align: center;
-
-}
-
-* {
-
-	box-sizing: border-box;
-
-}
-
-.responsive {
-
-	padding: 0 6px;
-	float: left;
-	width: 33.3333%;
-
-}
-
-@media only screen and (max-width: 700px) {
-
-	.responsive {
-		width: 49.9999%;	
-		margin: 6px 0;
-	}
-}
-
-@media only screen and (max-width: 500px) {
-
-	.responsive {
-			width: 100%;
-	}
-}
-
 #profile {
 	
 	display: block;
@@ -239,4 +123,41 @@ a:hover {
 	font-style: italic;
 	text-align: center;
 	
-}		
+}
+/*Get code to work later (Sep 10th) */
+
+nav {
+
+	padding: 50px 0;
+	min-width: 500px; 
+
+}
+
+ nav ul {
+
+	background: linear-gradient(90deg, 
+	  rgba(255, 255, 255, 0) 0%, 
+	  rgba(255, 255, 255, 0.2) 25%, 
+	  rgba(255, 255, 255, 0.2) 75%, 
+	  rgba(255, 255, 255, 0) 100%);
+	box-shadow: 0 0 25px rgba(0, 0, 0, 0.1),
+	  inset 0 0 1px rgba(255, 255, 255, 0.6);
+
+}
+
+ nav ul li {
+
+	display: inline-block;
+
+}
+
+ nav ul li a {
+
+	padding: 10px; 
+	color: #FFFFFF;
+	font-size: 18px;
+	font-family: Arial;
+	text-decoration: none;
+	display: block;
+
+}
