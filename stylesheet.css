@@ -1,3 +1,45 @@
+.simple_transition {
+
+	display: flex;
+
+}
+
+.simple_transition a {
+
+	position: relative;
+	color: #FFF
+	text-decoration: none;
+	font-family: "Poppins", san-serif;
+
+}
+.simple_transition a + a {
+
+	margin-left: 1rem;
+
+}
+
+.simple_transition a::after {
+
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	transform: scaleX(0);
+	transition: transform 0.4s ease;
+	transform-origin: bottom right;
+	background-color: #F34D4D
+	
+}
+
+.simple_transition a:hover::after {
+
+	transform-origin: bottom left;
+	transform: scaleX(1)
+
+}
+
 body {
 
 	color: black; 
@@ -75,7 +117,7 @@ table.auto {
 	table-layout: auto;
 
 }
-
+/*
 a:link {
 	
 	color: blue;
@@ -100,7 +142,7 @@ a:hover {
 	background-color: #ffff00
 
 }
-
+ */
 #profile {
 	
 	display: block;
