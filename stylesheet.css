@@ -1,44 +1,9 @@
-.simple_transition {
+div {
 
-	display: flex;
-
-}
-
-.simple_transition a {
-
-	position: relative;
-	color: #FFF
-	text-decoration: none;
-	font-family: "Poppins", san-serif;
-
-}
-.simple_transition a + a {
-
-	margin-left: 1rem;
+	background-size: contain;
 
 }
 
-.simple_transition a::after {
-
-	content: "";
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	width: 100%;
-	height: 2px;
-	transform: scaleX(0);
-	transition: transform 0.4s ease;
-	transform-origin: bottom right;
-	background-color: #F34D4D
-	
-}
-
-.simple_transition a:hover::after {
-
-	transform-origin: bottom left;
-	transform: scaleX(1)
-
-}
 
 body {
 
@@ -78,6 +43,7 @@ h2 {
 	border-width: 2px;
 	border-style: solid;
 	border-radius: 10px;
+	word-wrap: break-word;
 
 }
 
@@ -143,11 +109,19 @@ a:hover {
 
 }
  */
+
+::selection{
+
+	color: black;
+	background-color: #F6EBE8;
+
+}
+
 #profile {
 	
 	display: block;
-	width: 40%;
-	height: 40%;
+	width: 30%;
+	height: 30%;
 	margin-left: auto;
 	margin-right: auto;
 	padding: 3px;
@@ -155,7 +129,17 @@ a:hover {
 	border-color: black;
 	border-width: 2px;
 	border-style: ridge;
+	transition: width 3s;
+	transition-timing-function: cubic-bezier(0,0,0,0);
 	
+}
+
+#profile:hover {
+
+	width: 40%;
+	height: 40%;
+	transform: translate(100px, 50px);
+
 }
 
 #copyright {
@@ -165,41 +149,4 @@ a:hover {
 	font-style: italic;
 	text-align: center;
 	
-}
-/*Get code to work later (Sep 10th) */
-
-nav {
-
-	padding: 50px 0;
-	min-width: 500px; 
-
-}
-
- nav ul {
-
-	background: linear-gradient(90deg, 
-	  rgba(255, 255, 255, 0) 0%, 
-	  rgba(255, 255, 255, 0.2) 25%, 
-	  rgba(255, 255, 255, 0.2) 75%, 
-	  rgba(255, 255, 255, 0) 100%);
-	box-shadow: 0 0 25px rgba(0, 0, 0, 0.1),
-	  inset 0 0 1px rgba(255, 255, 255, 0.6);
-
-}
-
- nav ul li {
-
-	display: inline-block;
-
-}
-
- nav ul li a {
-
-	padding: 10px; 
-	color: #FFFFFF;
-	font-size: 18px;
-	font-family: Arial;
-	text-decoration: none;
-	display: block;
-
 }
