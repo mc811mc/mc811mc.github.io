@@ -117,6 +117,12 @@ a:hover {
 
 }
 
+.filtered {
+
+	filter: grayscale(100%)
+
+}
+
 #profile {
 	
 	display: block;
