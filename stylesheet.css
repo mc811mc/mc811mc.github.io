@@ -82,36 +82,6 @@ table.auto {
 
 	table-layout: auto;
 
-}
-/*
-a:link {
-	
-	color: blue;
-	text-decoration: none;
-
-}
-
-a:visited {
-	
-	color: purple;
-	
-}
-
-a:hover {
-	
-	color: #F15A51;
-	
-}
-
-.highlight {
-
-	background-color: #ffff00
-
-}
- */
-
-/* Photo Gallery */
-
 button {
 
 	margin-top: 30px;
@@ -128,7 +98,7 @@ img {
 
 }
 
- ::selection{
+::selection{
 
 	color: black;
 	background-color: #F6EBE8;
@@ -141,7 +111,19 @@ img {
 
 }
 
-#profile {
+#tabs {
+
+
+
+}
+
+.link {
+
+	width: 22px;
+
+}
+
+.profile {
 	
 	display: block;
 	width: 30%;
@@ -153,6 +135,13 @@ img {
 	border-color: black;
 	border-width: 2px;
 	border-style: ridge;
+
+}
+
+#index_button {
+
+	color: black;
+
 
 }
 
