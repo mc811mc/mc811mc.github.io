@@ -153,16 +153,6 @@ img {
 	border-color: black;
 	border-width: 2px;
 	border-style: ridge;
-	transition: width 3s;
-	transition-timing-function: cubic-bezier(0,0,0,0);
-	
-}
-
-#profile:hover {
-
-	width: 40%;
-	height: 40%;
-	transform: translate(100px, 50px);
 
 }
 
