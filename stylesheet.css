@@ -1,23 +1,22 @@
 div {
 
-	background-size: contain;
+	background-size: auto;
 
 }
-
 
 body {
 
 	color: black; 
-	font-family: Verdana, Arial, Geneva, Arial Black; 
+	font-family: Helvetic, Arial, Geneva, Arial Black; 
 	font-weight: bold;
-	background-color: #F6EBE8;
+	background-color: white;
 	font-size: 25px;
 	
 }
 		
 h1 {
 	
-	text-decoration: underline;
+	text-decoration: none;
 	font-size: 150%;
 	text-align: center;
 
@@ -25,9 +24,24 @@ h1 {
 
 h2 {
 	
-	text-decoration: underline;
-	font-size: 120%;
+	text-decoration: none;
+	font-size: 125%;
 	text-align: center;
+}
+
+h3 {
+
+	text-decoration: none;
+	font-size: 110%;
+	text-align: center;
+
+}
+
+/*Class*/
+.filtered {
+
+	filter: grayscale(100%)
+
 }
 
 .paragraph {
@@ -47,6 +61,28 @@ h2 {
 
 }
 
+.link {
+
+	width: 22px;
+
+}
+
+.profile {
+	
+	display: block;
+	width: 30%;
+	height: 30%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 3px;
+	background-color: silver;
+	border-color: black;
+	border-width: 2px;
+	border-style: ridge;
+
+}
+
+/*ID*/
 #divmain {
 	
 	color:black; 
@@ -105,36 +141,9 @@ img {
 
 }
 
-.filtered {
-
-	filter: grayscale(100%)
-
-}
-
 #tabs {
 
 
-
-}
-
-.link {
-
-	width: 22px;
-
-}
-
-.profile {
-	
-	display: block;
-	width: 30%;
-	height: 30%;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 3px;
-	background-color: silver;
-	border-color: black;
-	border-width: 2px;
-	border-style: ridge;
 
 }
 
