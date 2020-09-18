@@ -1,3 +1,15 @@
+:root {
+
+	background-color: white;
+
+}
+
+@media (max-width: 300px) {
+	:root {
+
+
+	}
+}
 div {
 
 	background-size: auto;
@@ -6,7 +18,7 @@ div {
 
 body {
 
-	color: black; 
+	color: black !important;
 	font-family: Helvetic, Arial, Geneva, Arial Black; 
 	font-weight: bold;
 	background-color: white;
@@ -46,7 +58,7 @@ h3 {
 
 .paragraph {
 	
-	text-align: center;
+	text-align: left;
 	color:black; 
 	font-size: 15px;
 	font-style: italic;
@@ -74,15 +86,99 @@ h3 {
 	height: 30%;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 3px;
-	background-color: silver;
-	border-color: black;
-	border-width: 2px;
-	border-style: ridge;
 
 }
 
-/*ID*/
+a:hover {
+
+	color: cyan;
+
+}
+
+table {
+
+	border-collapse: seperate;
+
+}
+
+table.auto {
+
+	table-layout: auto;
+
+button {
+
+	margin-top: 30px;
+	float: left;
+	height: 50px;
+	background-color: rgba(0, 0, 0, 0.5)
+
+}
+
+img {
+
+	float: left;
+	margin-right: 10px;
+	margin-left: 10px;
+
+}
+
+::selection{
+
+	color: black;
+	background-color: #F6EBE8;
+
+}
+
+/*Common*/
+
+#external_links {
+
+	margin-left: auto;
+  	margin-right: auto;
+
+}
+/*Index ID*/
+#index_homepage {
+
+	opacity: 50%;
+
+}
+
+#tabs {
+
+	padding: 10px;
+	margin: 10px;
+
+
+
+}
+
+#index_button {
+
+	color: black;
+
+
+}
+
+#copyright {
+	
+	color:black; 
+	font-size: 12x;
+	font-style: italic;
+	text-align: center;
+	
+}
+/*Programming ID*/
+/*Photography ID*/
+
+#photographylogo {
+
+	display: block;
+	width: 300px;
+	height: 150px;
+
+}
+
 #divmain {
 	
 	color:black; 
@@ -107,58 +203,6 @@ h3 {
 	list-style: square inside none;
 
 }
-
-table {
-
-	border-collapse: seperate;
-
-}
-
-table.auto {
-
-	table-layout: auto;
-
-button {
-
-	margin-top: 30px;
-	float: left;
-	height: 50px;
-
-}
-
-img {
-
-	float: left;
-	margin-right: 10px;
-	margin-left: 10px;
-
-}
-
-::selection{
-
-	color: black;
-	background-color: #F6EBE8;
-
-}
-
-#tabs {
-
-
-
-}
-
-#index_button {
-
-	color: black;
-
-
-}
-
-#copyright {
-	
-	color:black; 
-	font-size: 15px;
-	font-style: italic;
-	text-align: center;
-	
-}
+/*Translation ID*/
+/*Author ID*/
+/*Contacts ID*/
