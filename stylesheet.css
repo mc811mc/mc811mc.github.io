@@ -1,6 +1,6 @@
 :root {
 
-	background-color: white;
+	background: linear-gradient(35deg,#0f4c81, white);
 
 }
 
@@ -10,6 +10,30 @@
 
 	}
 }
+
+/*Navigation*/
+
+#tabs {
+
+	width: 100%
+	background-color: #fca903;
+
+}
+
+#tabs ul {
+
+	margin: 0px;
+	padding: 5px 0px 5px 30px;
+
+}
+
+#tabs li {
+
+	display: inline;
+	margin-right: 20px
+
+}
+
 div {
 
 	background-size: auto;
@@ -58,12 +82,12 @@ h3 {
 
 .paragraph {
 	
-	text-align: left;
+	text-align: center;
 	color:black; 
 	font-size: 15px;
 	font-style: italic;
 	line-height: 1.5em;
-	background-color: white;
+	background: linear-gradient(53deg, #ccfffc, #ffcccf);
 	padding: 20px;
 	border-color: black;
 	border-width: 2px;
@@ -84,16 +108,80 @@ h3 {
 	display: block;
 	width: 30%;
 	height: 30%;
-	margin-left: auto;
-	margin-right: auto;
+	margin: auto;
 
 }
+
+/*Pseudo Class*/
 
 a:hover {
 
 	color: cyan;
 
 }
+
+::selection{
+
+	color: black;
+	background-color: #F6EBE8;
+
+}
+
+/*Common*/
+
+#external_links {
+
+	margin-left: auto;
+  	margin-right: auto;
+
+}
+/*Index*/
+#index_homepage {
+
+	opacity: 50%;
+
+}
+
+#index_button {
+
+	color: black;
+
+
+}
+
+#copyright {
+	
+	color:black; 
+	font-size: 12x;
+	font-style: italic;
+	text-align: center;
+	
+}
+
+enter {
+
+	border-radius: 5px;
+    color: white;
+    background-color: #0F5897;
+    padding: 5px 10px 8px 10px;
+
+}
+
+enter:hover{
+	animation-name: enter-hover;
+	animation-duration: 500ms;
+	animation-fill-mode: forwards;
+
+}
+
+@keyframes enter-hover {
+	100% {
+		background-color: red;
+	}
+
+}
+/*Programming*/
+/*Photography*/
 
 table {
 
@@ -122,67 +210,12 @@ img {
 
 }
 
-::selection{
-
-	color: black;
-	background-color: #F6EBE8;
-
-}
-
-/*Common*/
-
-#external_links {
-
-	margin-left: auto;
-  	margin-right: auto;
-
-}
-/*Index ID*/
-#index_homepage {
-
-	opacity: 50%;
-
-}
-
-#tabs {
-
-	padding: 10px;
-	margin: 10px;
-
-
-
-}
-
-#index_button {
-
-	color: black;
-
-
-}
-
-#copyright {
-	
-	color:black; 
-	font-size: 12x;
-	font-style: italic;
-	text-align: center;
-	
-}
-/*Programming ID*/
-/*Photography ID*/
-
 #photographylogo {
 
 	display: block;
 	width: 300px;
 	height: 150px;
 
-}
-
-#divmain {
-	
-	color:black; 
-	
 }
 
 #divabsolute {
@@ -203,6 +236,6 @@ img {
 	list-style: square inside none;
 
 }
-/*Translation ID*/
-/*Author ID*/
-/*Contacts ID*/
+/*Translation*/
+/*Author*/
+/*Contacts*/
