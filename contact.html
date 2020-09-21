@@ -21,16 +21,19 @@
 		<div>
 			<h1> Contact </h1>
 				<form action = "#">
-					<label for="contact_reason">Category:</label>
+					<fieldset>
+						<legend> What are you inquiring about? </legend>
+						<label for="contact_reason">Category:</label>
 						<select id="category">
 						<option value="programming">Programming</option>
 						<option value="translation">Translation</option>
 						<option value="photography">Photography</option>
 						<option value="writing" selected>Writing</option>
-					</select>
-					<input type = "text" required placeholder = "Minho Cho">
-					<input type = "text" required placeholder = "hello@minhocho.com">
-					<button type = "submit"> Submit </button>
+						</select>
+						<input type = "text" id = "name" required placeholder = "Minho Cho">
+						<input type = "text" id = "email" required placeholder = "hello@minhocho.com">
+						<button type = "submit"> Submit </button>
+					</fieldset>
 				</form>
 		<div>
 	</body>
