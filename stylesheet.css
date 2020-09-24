@@ -182,6 +182,59 @@ enter:hover{
 }
 /*Programming*/
 /*Photography*/
+.photogallery {
+
+	grid-template-areas: 
+	"photo1 photo1 photo2"
+	"photo3 photo4 photo4"
+	"photo5 photo6 photo6"
+	"photo5 photo7 photo7"
+	"photo8 photo9 photo10";
+	min-height: 300px;
+	width: 75%
+	background: #FAFBF5;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(5, 1fr);
+	grid-gap: 10px;
+	justify-items: center;
+
+
+}
+
+.photo1 {
+	grid-area: photo1;
+	background: palegreen;
+	grid-column: 1/2;
+	grid-row: 1/2;
+
+}
+
+.photogalleryexample {
+
+    font-size: 1.5em;
+    min-height: 300px;
+    width: 100%;
+    background: LightGray;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px auto 1fr auto;
+    grid-gap: 10px;
+    grid-template-areas:
+      "header"
+      "bio"
+      "content"
+	  "footer";
+}
+
+.bio {
+
+	background: white;
+	grid-area: bio;
+
+}
+
+
 
 table {
 
