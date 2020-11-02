@@ -1,6 +1,6 @@
 :root {
 
-	background: linear-gradient(35deg,#0f4c81, white);
+	background: linear-gradient(90deg,#0f4c81, white);
 
 }
 
@@ -156,6 +156,12 @@ a:hover {
 	font-style: italic;
 	text-align: center;
 	
+}
+
+#index-background {
+
+	background-image: url("Images/Index/index_background_1.jpg")
+
 }
 
 enter {
