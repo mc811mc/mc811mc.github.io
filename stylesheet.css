@@ -160,9 +160,29 @@ a:hover {
 
 #index-background {
 
-	background-image: url("Images/Index/index_background_1.jpg")
+	background-image: url("Images/Index/index_background_1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+
 
 }
+
+#index-entrance {
+	position: fixed;
+	height: auto;
+    /* center the element */
+	top: 50%;
+	bottom: 50%;
+	right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    /* give it dimensions */
+    min-height: 10em;
+	width: 40%;
+	text-align: center;
+}
+
 
 enter {
 
