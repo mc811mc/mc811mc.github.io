@@ -1,6 +1,6 @@
 # Minho Cho Personal Website
 
-Hi, this is Minho Cho and welcome to my personal website repository! It is currently made using HTML, CSS, and JavaScript.
+Hi, this is Minho Cho and welcome to my personal website repository! It is currently made using HTML, CSS, and JavaScript.  
 I plan to move over in using React later on.
 
 You can follow my latest posts and tweets here!
